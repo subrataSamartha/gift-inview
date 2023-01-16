@@ -12,8 +12,8 @@
 }
 
 #members__container {
-  background-color: #262625;
-  border-right: 1px solid #797a79;
+  background-color: #d7e5f2;
+  border-right: 1px solid #9cccdf;
   overflow-y: auto;
   width: 90%;
   max-width: 250px;
@@ -23,11 +23,12 @@
 }
 
 #members__count {
-  background-color: #1d1d1c;
+  background-color: #efefef;
   padding: 7px 15px;
   font-size: 14px;
   font-weight: 600;
   border-radius: 5px;
+  color: black;
 }
 
 #members__header {
@@ -37,7 +38,7 @@
   padding: 0 1rem;
   position: fixed;
   font-size: 18px;
-  background-color: #323143;
+  background-color: #0f2439;
   width: 218px;
 }
 
@@ -47,6 +48,7 @@
   gap: 1rem;
   padding-top: 5rem;
   padding-bottom: 6.5rem;
+  background-color: #d7e5f2;
 }
 
 .members__list::-webkit-scrollbar {
@@ -58,6 +60,7 @@
   align-items: center;
   column-gap: 10px;
   padding-left: 1em;
+  color: #313131;
 }
 
 .green__icon {
@@ -75,7 +78,7 @@
 
 #messages__container {
   height: calc(100vh - 85px);
-  background-color: #262625;
+  background-color: #d7e5f1;
   right: 0;
   position: absolute;
   width: 100%;
@@ -101,7 +104,7 @@
 }
 
 .message__body {
-  background-color: #363739;
+  background-color: #fff;
   border-radius: 10px;
   padding: 10px 15px;
   width: fit-content;
@@ -110,13 +113,13 @@
 
 .message__body strong {
   font-weight: 600;
-  color: #ede0e0;
+  color: #101010;
 }
 
 .message__body__bot {
   padding: 0 20px;
   max-width: 900px;
-  color: #bdbdbd;
+  color: #101010;
 }
 
 .message__author {
@@ -126,11 +129,12 @@
 
 .message__author__bot {
   margin-right: 10px;
-  color: #a52aca !important;
+  color: #f27f22 !important;
 }
 
 .message__text {
   margin: 0;
+  color: #101010;
 }
 
 #message__form {
@@ -138,19 +142,19 @@
   position: fixed;
   bottom: 0;
   display: block;
-  background-color: #1a1a1a;
+  background-color: #0f2538;
   padding: 1em;
 }
 
 #message__form input {
-  color: #fff;
+  color: #101010;
   width: 100%;
   border: none;
   border-radius: 5px;
   padding: 18px;
   font-size: 14px;
   box-sizing: border-box;
-  background-color: #3f434a;
+  background-color: rgb(245, 245, 245);
 }
 
 #message__form input:focus {
@@ -204,14 +208,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid #b366f9;
+  border: 2px solid #2b9ee8;
   border-radius: 50%;
   cursor: pointer;
   overflow: hidden;
   height: 300px;
   width: 300px;
 
-  background-image: url("/images/logo.png");
+  background-image: url("/images/gift-logo-monocrome.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 75px;
@@ -302,7 +306,7 @@
   background-color: #1a1a1a60;
   padding: 1rem;
   left: 50%;
-  display: flex;
+  display: none;
   gap: 1rem;
   transform: translateX(-50%);
 }
@@ -332,5 +336,20 @@
 .stream__actions button.active,
 .stream__actions a:hover,
 .stream__actions button:hover {
-  background-color: #845695;
+  background-color: #279ceb;
+}
+
+#join-btn {
+  background-color: #2499ef;
+  font-size: 18px;
+  padding: 25px 50px;
+  border: none;
+  color: #fff;
+
+  position: fixed;
+  bottom: 1rem;
+  border-radius: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
 }

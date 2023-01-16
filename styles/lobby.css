@@ -2,7 +2,7 @@
   width: 90%;
   max-width: 600px;
   border-radius: 10px;
-  background-color: #262625;
+  background-color: #f0f0f0;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -17,7 +17,7 @@
   border-radius: 10px 10px 0 0;
   padding: 10px;
   text-align: center;
-  background-color: #363739;
+  background-color: #2a4c6c;
   margin: 0;
   font-size: 18px;
   font-size: 300;
@@ -35,24 +35,25 @@
   line-height: 1.7em;
   margin-bottom: 10px;
   display: block;
+  color: black;
 }
 
 .form__field__wrapper input {
   box-sizing: border-box;
-  color: #fff;
+  color: #3f434a;
   width: 100%;
   margin: 0;
   border: none;
   border-radius: 5px;
   padding: 16px 20px;
   font-size: 15px;
-  background-color: #3f434a;
+  background-color: #fff;
 }
 
 .form__field__wrapper button[type="submit"] {
   margin-top: 32px;
   cursor: pointer;
-  background-color: #845695;
+  background-color: #279ceb;
   border: none;
   color: #fff;
   font-size: 16px;
